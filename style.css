@@ -1,0 +1,17 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Main */
+
+.nav-main .navbar-nav {
+    font-weight: 500;
+}
+
+.nav-main .nav-item {
+    padding: 0 1.5em 0 1.5em;
+}
+
+.nav-main .nav-item a {
+    font-size: 5em !important;
+}
