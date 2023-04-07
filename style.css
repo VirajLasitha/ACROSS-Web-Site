@@ -177,7 +177,7 @@ p {
 /* Contact */
 
 .bg-contact {
-    background-color: #F4F9FF;
+    background-color: #ffffff;
 }
 
 .contact-details-box {
@@ -239,23 +239,34 @@ p {
 
     /* Contact */
     .contact-details-box {
+        right: 0 !important;
         position: relative;
         width: 100%;
         border-radius: 0px 0px 50px 50px;
         height: 200px;
         margin: 0;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px
     }
 
     .contact-details-box div {
         padding: 15px !important;
     }
 
-    .bg-contact {
+    /* .bg-contact {
         border-radius: 50px !important;
-    }
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px !important;
+    } */
 
     .contact-box {
         height: 100% !important;
+        padding: 0 !important;
+    }
+
+    /* Half Circles */
+    .half-circle2 {
+        bottom: 10px !important;
+        left: 10px;
+        border-radius: 50px 0 0 50px;
     }
 
     /* Map */
@@ -266,4 +277,65 @@ p {
     iframe {
         border-radius: 50px 50px 0px 0px !important;
     }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* Paddings */
+    .p-sm {
+        padding: 30px !important;
+    }
+
+    .pl-sm {
+        background-color: #FF007A;
+        padding-left: 30px !important;
+    }
+
+    .pr-sm {
+        padding-right: 30px !important;
+    }
+
+    .pt-sm {
+        padding-top: 10px !important;
+    }
+
+    .pb-sm {
+        padding-bottom: 10px !important;
+    }
+
+    /* Text Center */
+    .txt-c-sm {
+        text-align: center;
+    }
+
+    /* Contact */
+    .contact-details-box {
+        padding: 0 !important;
+        right: 10px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px
+    }
+
+    .bg-contact {
+        padding: 0 30px !important;
+    }
+
+    /* Map */
+    .map-box {
+        padding: 0 !important;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    }
+
+    /* Circles */
+    .half-circle2 {
+        z-index: -4 !important;
+        bottom: -25px !important;
+        left: -15px !important;
+    }
+
+    /* Dots */
+    .dot-box {
+        height: 40px;
+    }
+
 }
