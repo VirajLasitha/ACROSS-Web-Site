@@ -1,0 +1,316 @@
+/*---- Common ----*/
+/*---- Style for <hr /> ----*/
+.border-cust{
+  border-top:2px solid #a3cdff!important; 
+}
+.border-cust2{
+  border-top:2px solid rgba(149, 157, 165, 0.1)!important; 
+}
+
+/* ---- Mobile Only --- */
+@media only screen and (max-width: 768px) {
+  .mobile-hide{
+    display: none;
+  }
+  .mobile-only{
+    display: block;
+  }
+  .mobile-center{
+    text-align: center;
+  }
+  .mobile-justify{
+    text-align: justify;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mobile-only{
+    display: none;
+  }
+}
+
+/*
+@media only screen and (min-width: 600px) {
+  .container{
+    margin-inline: 1.5em!important;
+  }
+}*/
+/*----Background----*/
+.cust-anim span{
+  transition: 0.3s ease-out;
+}
+.cust-anim span:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+  .bg-cust{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 76%;
+    width: 76vw;
+    top: 54%;
+    right: 0;
+    transform: translate(0, -50%);
+    border-radius: 150px 0px 0px 0px;
+    z-index: -1;
+    /*background-color: #F4F9FF;*/
+    background-color: green;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bg-cust{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 76%;
+    width: 76vw;
+    top: 54%;
+    right: 0;
+    transform: translate(0, -50%);
+    border-radius: 150px 0px 0px 0px;
+    z-index: -1;
+    background-color: #F4F9FF;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .bg-cust{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 70%;
+    width: 75vw;
+    top: 50%;
+    right: 0%;
+    transform: translate(0, -50%);
+    border-radius: 150px 0px 0px 0px;
+    z-index: -1;
+
+    background-color: #F4F9FF;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bg-large-square{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 120px;
+    width: 120px;
+    top: 10px;
+    left: 13%;
+    transform: translate(0, -50%);
+    border-radius: 101px 0px 0px 0px;
+    z-index: -1;
+    background-color: #FFF5DB;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .bg-large-square{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 130px;
+    width: 130px;
+    top: 308px;
+    left: 6%;
+    transform: translate(0, -50%);
+    border-radius: 101px 0px 0px 0px;
+    z-index: -1;
+    background-color: #FFF5DB;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bg-pink-circle{
+  position: absolute;
+  top: 8%;
+  right: 19%;
+  z-index: -2;
+  /* width: 500px;*/
+  }
+  
+}
+.bg-pink-circle{
+  position: absolute;
+  bottom: 4%;
+  right: 4%;
+  z-index: -2;
+}
+@media only screen and (max-width: 768px) { /* look */
+  .bg-dots{
+    position: absolute;
+    bottom: 40%;
+    left: 9%;
+    height: 150px;
+    width: 350px;
+    background-image: radial-gradient(circle at 3px 3px, #E7F0FC 3px, transparent 0);
+    background-size: 20px 20px;
+    z-index: -2;
+  }
+
+}
+
+@media only screen and (min-width: 768px) { /* look */
+  .bg-dots{
+    position: absolute;
+    bottom: 7%;
+    left: 9%;
+    height: 150px;
+    width: 350px;
+    background-image: radial-gradient(circle at 3px 3px, #E7F0FC 3px, transparent 0);
+    background-size: 20px 20px;
+    z-index: -2;
+  }
+}
+
+
+
+/*----Card----*/
+.card-cust1{
+  width: 18em;
+  height: auto;
+  border-radius: 15%;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card-cust1 .card-body{
+  padding: 2em;
+  padding-inline: 2em;
+  
+}
+.card-cust1 .card-body .image-body{
+  margin-inline: auto;
+  border-radius: 1.5em;
+  width: 110px;
+  height: 110px;
+}
+.card-cust1 .card-body .ib1 {
+  background-color: #F1F7FF;
+}
+.card-cust1 .card-body .ib2 {
+  background-color: #FFF7E3;
+}
+.card-cust1 .card-body .ib3 {
+  background-color: #FFF2F8;
+}
+.card-cust1 .card-body .ib4 {
+  background-color: #DEFFEE;
+}
+.card-cust1 .card-body img{
+  padding: 1em;
+}
+.card-cust1 .card-body svg{
+    width: 70px;
+    padding-top: 25px;
+    height: auto;
+}
+.card-cust1 .card-body .svg1{color: #2639ED;}
+.card-cust1 .card-body .svg2{color: #FF9900;}
+.card-cust1 .card-body .svg3{color: #FF007A;}
+.card-cust1 .card-body .svg4{color: #00DA71;}
+
+.card-cust1 .card-body h5{
+  padding-top: 2em;
+}
+@media only screen and (min-width: 768px) {
+  .card-translate-up{
+    transform: translateY(-50px);
+  }
+  /*
+  .card:hover{
+    transform: scale(1.01);
+  }
+  .card-translate-up:hover{
+    transform: translateY(-50px);
+    transform: scale(1.01);
+  }*/ 
+}
+/* ---- card popup
+.card{
+  transition: 0.3s ease-out;
+}
+*/
+
+/*Footer */
+@media only screen and (max-width: 768px) {
+  .footer-cust{padding-top: 1em;}
+}
+@media only screen and (min-width: 768px) {
+  .footer-cust{padding-top: 4em;}
+}
+.footer-cust{
+  
+  width: 100%;
+  height: auto;
+}
+.footer-cust .col-sm-3{
+  height: 200px;
+}
+
+.footer-subheading{
+  font-weight: bold;
+}
+.footer-cust .list-unstyled li{
+  padding-top: 0.5em;
+}
+
+.svg-circle-2x{
+  width: 2em!important;
+  height: auto;
+}
+.svg-twitter{color: #1DA1F2;}
+.svg-facebook{color: #3b5998 ;}
+.svg-linked{color: #0072b1 ;}
+
+/* ---- Our Team ---- */
+.img-team{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  height: auto;
+  border-radius: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .bg-lg-square-team{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 132px;
+    width: 132px;
+    top: 1%;
+    left: 19%;
+    transform: translate(0, -50%);
+    border-radius: 101px 0px 0px 0px;
+    z-index: -1;
+    background-color: #F4F9FF;
+  }
+}
+.bg-lg-square-team{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  height: 120px;
+  width: 120px;
+  top: 3%;
+  left: 7%;
+  transform: translate(0, -50%);
+  border-radius: 101px 0px 0px 0px;
+  z-index: -1;
+  background-color: #F4F9FF;
+}
+
+.footer-dots{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    height: 228px;
+    width: 93px;
+    background-image: radial-gradient(circle at 3px 3px, #E7F0FC 3px, transparent 0);
+    background-size: 20px 20px;
+    z-index: -2;
+}
