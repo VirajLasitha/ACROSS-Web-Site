@@ -1,7 +1,7 @@
 /*---- Common ----*/
 /*---- Style for <hr /> ----*/
 .border-cust{
-  border-top:2px solid #a3cdff!important; 
+  border-top:2px solid #E4E4E4!important; 
 }
 .border-cust2{
   border-top:2px solid rgba(149, 157, 165, 0.1)!important; 
@@ -139,13 +139,23 @@
   right: 4%;
   z-index: -2;
 }
-@media only screen and (max-width: 768px) { /* look */
+@media only screen and (max-width: 768px) { 
   .bg-dots{
     position: absolute;
-    bottom: 40%;
-    left: 9%;
-    height: 150px;
-    width: 350px;
+    top: 370px;
+    left: 2%;
+    height: 300px;
+    width: 70px;
+    background-image: radial-gradient(circle at 3px 3px, #E7F0FC 3px, transparent 0);
+    background-size: 20px 20px;
+    z-index: -2;
+  }
+  .bg-dots2{
+    position: absolute;
+    bottom: 150px;
+    right: 2%;
+    height: 300px;
+    width: 70px;
     background-image: radial-gradient(circle at 3px 3px, #E7F0FC 3px, transparent 0);
     background-size: 20px 20px;
     z-index: -2;
@@ -303,14 +313,29 @@
   z-index: -1;
   background-color: #F4F9FF;
 }
-
-.footer-dots{
+@media only screen and (max-width: 768px) {
+  .footer-dots{
     position: absolute;
     bottom: 0%;
-    right: 0%;
+    right: -5%;
     height: 228px;
     width: 93px;
     background-image: radial-gradient(circle at 3px 3px, #E7F0FC 3px, transparent 0);
     background-size: 20px 20px;
     z-index: -2;
 }
+}
+@media only screen and (min-width: 768px) {
+  
+    .footer-dots{
+      position: absolute;
+      bottom: 0%;
+      right: 0%;
+      height: 228px;
+      width: 93px;
+      background-image: radial-gradient(circle at 3px 3px, #E7F0FC 3px, transparent 0);
+      background-size: 20px 20px;
+      z-index: -2;
+  }
+}
+

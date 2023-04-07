@@ -46,14 +46,15 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Who We Are</a>
-                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="#">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#our-clients">Our Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Who We Are</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
@@ -69,7 +70,7 @@
 
     </header>
     <main>
-        <!-- Viraj -->
+        <!-- 1. Hero Section -->
         <div class="container-fluid" id="Home">
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 p-xs pt-xs p-sm pt-sm"
@@ -89,11 +90,106 @@
                     <img src="images\header-image.png" class="img-fluid d-block header-img" alt="Image Not Loading!">
 
                     <div class="circle1"></div>
-                    <div class="half-circle1"></div>
+                    <div class="half-circle1 mobile-hide"></div>
 
 
                 </div>
             </div>
+            <!-- End Hero Section -->
+            <!-- 2. Services -->
+            <section style="position: relative; margin-top: 5em;">
+                <div class="bg-cust mobile-hide"></div>
+                <div class="bg-large-square"></div>
+                <!--<svg height="120" width="120" class="bg-pink-circle">
+                    <circle cx="60" cy="60" r="50" stroke="#FF007A" stroke-width="8" fill="none" />
+                </svg>-->
+                <div class="bg-dots"></div>
+                <div class="bg-dots2 mobile-only"></div>
+
+                <div class="container">
+
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-5 col-sm-12">
+
+                            <h1 class="h2 header-title mobile-center" id="title-2">How can we help <br> your business?
+                            </h1>
+                            <p class="text-muted mt-3 me-2 mobile-center">From building robust network systems to
+                                developing custom software, we help businesses thrive with reliable IT solutions and
+                                expert support.</p>
+                        </div>
+                        <div class="col-md-7 col-sm-12">
+
+                            <div class="row">
+
+                                <div
+                                    class="col-md-6 col-sm-6 col-12 d-flex align-items-stretch justify-content-center pt-5">
+                                    <div class="card card-cust1 text-center">
+                                        <div class="card-body">
+                                            <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+                                            <div class="image-body ib1 ">
+                                                <!--<img src="img/plan.png" alt="plan-image">-->
+                                                <i class="fas fa-network-wired svg1"></i>
+                                            </div>
+
+                                            <h5 class="card-title" id="">Network System Construction</h5>
+                                            <p class="card-text text-muted" id="">Building secure and reliable computer
+                                                networks for businesses.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-md-6 col-sm-6 col-12 d-flex align-items-stretch justify-content-center pt-4 ">
+                                    <div class="card card-cust1 text-center card-translate-up">
+                                        <div class="card-body">
+                                            <div class="image-body ib2">
+                                                <!-- <img src="img/wallet.png" alt="plan-image"> -->
+                                                <i class="fas fa-tools svg2"></i>
+                                            </div>
+                                            <h5 class="card-title" id="">System Introduction and Operation Support</h5>
+                                            <p class="card-text text-muted" id="">Providing assistance and maintenance
+                                                for new and existing systems.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div
+                                    class="col-md-6 col-sm-6 col-12 d-flex align-items-stretch justify-content-center pt-4">
+                                    <div class="card card-cust1 text-center">
+                                        <div class="card-body">
+                                            <div class="image-body ib3">
+                                                <!-- <img src="img/dev.png" alt="plan-image"> -->
+                                                <i class="fas fa-laptop-code svg3"></i>
+
+                                            </div>
+                                            <h5 class="card-title" id="">Software Development</h5>
+                                            <p class="card-text text-muted" id="">Creating custom software solutions for
+                                                specific business needs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-md-6 col-sm-6 col-12 d-flex align-items-stretch justify-content-center pt-4">
+                                    <div class="card card-cust1 text-center card-translate-up">
+                                        <div class="card-body">
+                                            <div class="image-body ib4">
+                                                <!-- <img src="img/report.png" alt="plan-image"> -->
+                                                <i class="fas fa-chart-line svg4"></i>
+
+                                            </div>
+                                            <h5 class="card-title" id="">Sales of IT-Related Products</h5>
+                                            <p class="card-text text-muted" id="">Offering a range of products to meet
+                                                technology needs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Services -->
+            <!-- 3. Clients-->
             <div class="row our-client" style="padding-top: 100px" id="our-clients">
                 <div class="col-md-4 col-sm-12 col-xs-12 p-xs pt-xs p-sm pt-sm"
                     style="padding-left: 100px; position: relative;">
@@ -121,9 +217,32 @@
 
                 </div>
             </div>
+            <!-- End Clients-->
+            <!-- 4. Who we are -->
+            <section style="position: relative; margin-top: 7em;">
+                <div class="bg-lg-square-team"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 class="h2 header-title mobile-center" id="title-2">Who we are?</h1>
+                            <p class="text-muted pt-4 me-2 mobile-justify">We are a versatile IT company specializing in
+                                network system construction, software development, and sales of IT-related products.
+                                With years of experience, we provide top-notch system introduction and operation support
+                                to our clients. Our team of experts is dedicated to delivering innovative solutions that
+                                meet our clients' specific needs. Whether it's building a robust network system,
+                                developing custom software, or providing IT product sales, we are committed to
+                                delivering exceptional services that exceed our clients' expectations.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/team.jpg" alt="our-team" class="img-team">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Who we are -->
 
-            <!-- Contact Us -->
-            <div class="row contact-us" style="padding-top: 60px; padding-bottom: 100px; position: relative;"
+            <!-- 5. Contact Us -->
+            <div class="row contact-us pb-2 pt-5" style="position: relative;"
                 id="contact">
                 <!-- <div class="container p-xs pt-xs p-sm pt-sm" style="padding: 0 100px; position: relative;"> -->
                 <!-- <div class="container" style="padding: 0 100px; position: relative;"> -->
@@ -228,132 +347,21 @@
                 </div> -->
             </div>
         </div>
-        <div>
-            <!-- Pubudu -->
-            <div style="margin-top: 5em;"></div>
-            <!-- Start Help -->
-            <section style="position: relative;">
-                <div class="bg-cust"></div>
-                <div class="bg-large-square"></div>
-                <svg height="120" width="120" class="bg-pink-circle">
-                    <circle cx="60" cy="60" r="50" stroke="#FF007A" stroke-width="8" fill="none" />
-                </svg>
-                <div class="bg-dots"></div>
-
-                <div class="container">
-
-                    <div class="row d-flex align-items-center">
-                        <div class="col-md-5 col-sm-12">
-
-                            <h1 class="h2 header-title mobile-center" id="title-2">How can we help <br> your business?
-                            </h1>
-                            <p class="text-muted mt-3 me-2 mobile-center">From building robust network systems to
-                                developing custom software, we help businesses thrive with reliable IT solutions and
-                                expert support.</p>
-                        </div>
-                        <div class="col-md-7 col-sm-12">
-
-                            <div class="row">
-
-                                <div
-                                    class="col-md-6 col-sm-6 col-12 d-flex align-items-stretch justify-content-center pt-4">
-                                    <div class="card card-cust1 text-center">
-                                        <div class="card-body">
-                                            <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
-                                            <div class="image-body ib1 ">
-                                                <!--<img src="img/plan.png" alt="plan-image">-->
-                                                <i class="fas fa-network-wired svg1"></i>
-                                            </div>
-
-                                            <h5 class="card-title" id="">Network System Construction</h5>
-                                            <p class="card-text text-muted" id="">Building secure and reliable computer
-                                                networks for businesses.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-md-6 col-sm-6 col-12 d-flex align-items-stretch justify-content-center pt-4 ">
-                                    <div class="card card-cust1 text-center card-translate-up">
-                                        <div class="card-body">
-                                            <div class="image-body ib2">
-                                                <!-- <img src="img/wallet.png" alt="plan-image"> -->
-                                                <i class="fas fa-tools svg2"></i>
-                                            </div>
-                                            <h5 class="card-title" id="">System Introduction and Operation Support</h5>
-                                            <p class="card-text text-muted" id="">Providing assistance and maintenance
-                                                for new and existing systems.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div
-                                    class="col-md-6 col-sm-6 col-12 d-flex align-items-stretch justify-content-center pt-4">
-                                    <div class="card card-cust1 text-center">
-                                        <div class="card-body">
-                                            <div class="image-body ib3">
-                                                <!-- <img src="img/dev.png" alt="plan-image"> -->
-                                                <i class="fas fa-laptop-code svg3"></i>
-
-                                            </div>
-                                            <h5 class="card-title" id="">Software Development</h5>
-                                            <p class="card-text text-muted" id="">Creating custom software solutions for
-                                                specific business needs.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-md-6 col-sm-6 col-12 d-flex align-items-stretch justify-content-center pt-4">
-                                    <div class="card card-cust1 text-center card-translate-up">
-                                        <div class="card-body">
-                                            <div class="image-body ib4">
-                                                <!-- <img src="img/report.png" alt="plan-image"> -->
-                                                <i class="fas fa-chart-line svg4"></i>
-
-                                            </div>
-                                            <h5 class="card-title" id="">Sales of IT-Related Products</h5>
-                                            <p class="card-text text-muted" id="">Offering a range of products to meet
-                                                technology needs.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End Help -->
-            <div style="margin-top: 7em;"></div>
-            <!-- Start Who we are -->
-            <section style="position: relative;">
-                <div class="bg-lg-square-team"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h1 class="h2 header-title mobile-center" id="title-2">Who we are?</h1>
-                            <p class="text-muted mt-3 me-2 mobile-justify">We are a versatile IT company specializing in
-                                network system construction, software development, and sales of IT-related products.
-                                With years of experience, we provide top-notch system introduction and operation support
-                                to our clients. Our team of experts is dedicated to delivering innovative solutions that
-                                meet our clients' specific needs. Whether it's building a robust network system,
-                                developing custom software, or providing IT product sales, we are committed to
-                                delivering exceptional services that exceed our clients' expectations.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="img/team.jpg" alt="our-team" class="img-team">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End Who we are -->
+        
+            
+            
+            
+            
     </main>
-    <div style="margin-top: 2em;" class="mobile-hide"></div>
-    <footer class="footer-cust" style="position: relative;">
+    <div style="margin-top: 3em;" class="mobile-hide"></div>
+    <footer class="footer-cust pt-5" style="position: relative;">
+        
         <div class="footer-dots"></div>
         <div class="container">
-            <hr class="bg-danger border-2 border-top border-cust2 mobile-only">
+            <hr class="bg-danger border-2 border-top border-cust mb-5 mobile-hide"> 
+            <!--<hr class="bg-danger border-2 border-top border-cust2 mobile-only"> -->
             <div class="row">
-                <div class="col-md-4 col-sm-12 pb-4 mobile-hide">
+                <div class="col-md-4 col-sm-12 pb-2 mobile-hide">
                     <h4><span style="font-weight: bold;">Across</span> Co. Ltd</h4>
 
                     <p class="text-muted small">
@@ -447,7 +455,7 @@
                 </div>
             </div>
             <div class="row py-3">
-                <!-- <hr class="bg-danger border-2 border-top border-cust"> -->
+                 <hr class="bg-danger border-2 border-top border-cust mobile-hide"> 
                 <h6 class="text-center small" style="font-size: revert;">
                     Copyright &copy;
                     <script>
