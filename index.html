@@ -43,25 +43,25 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-                        </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link active" aria-current="page" data-translation-key="navHome" href="#Home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#our-clients">Our Clients</a>
+                            <a class="nav-link" data-translation-key="navSer" href="#">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Who We Are</a>
+                            <a class="nav-link" data-translation-key="navClient" href="#our-clients">Our Clients</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" data-translation-key="navWho" href="#">Who We Are</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-translation-key="navContact" href="#contact">Contact</a>
                         </li>
                         <div class="btn-group btn-group-sm" role="group" id="languages">
-                            <button type="button" class="btn btn-light active">EN</button>
-                            <button type="button" class="btn btn-light">日本</button>
+                            <button type="button" class="btn btn-light language-button active" data-language="en">EN</button>
+                            <button type="button" class="btn btn-light language-button" data-language="fr">日本</button>
                         </div>
                     </ul>
                 </div>
@@ -75,12 +75,12 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 p-xs pt-xs p-sm pt-sm"
                     style="padding: 100px; position: relative;">
-                    <h2 class="header-title txt-c-xs txt-c-sm" id="hero-title">A IT Services & Software Development
-                        Company</h2>
-                    <p class="text-muted pt-4 pt-xs txt-c-xs txt-c-sm">
+                    <h2 class="header-title txt-c-xs txt-c-sm" data-translation-key="hero-title">A IT Services & Software Development Company</h2>
+                    <p class="text-muted pt-4 pt-xs txt-c-xs txt-c-sm" data-translation-key="hero-desc">
                         We provide innovative IT solutions for businesses with expertise in network system construction,
                         software development, and IT product sales. Focused on quality and customer satisfaction.
                     </p>
+                    <a class="btn btn-primary" href="https://line.me/ti/p/N9GslRhDfK"  data-translation-key="hero-cta" target="_blank">Line</a>
 
                     <div class="dot-box"></div>
 
@@ -479,6 +479,9 @@
 
     <!-- Font Awesome -->
     <script src="fonts/FontAwesome/all.js"></script>
+    
+    <!-- Multi-Lang -->
+    <script src="lang-script.js"></script>
 
     <!-- Custom Scripts -->
     <script>
