@@ -9,7 +9,7 @@ const translations = {
     'hero-desc': 'We provide innovative IT solutions for businesses with expertise in network system construction, software development, and IT product sales. Focused on quality and customer satisfaction.',
     'hero-cta': 'Contact Us on LINE',
 
-    'serHeading':'your future needs you',
+    'serHeading':'How can we help your business?',
     'serMainDesc':'From building robust network systems to developing custom software, we help businesses thrive with reliable IT solutions and expert support.',
     'sercateHead1':'Network System Construction',
     'sercateDesc1':'Building secure and reliable computer networks for businesses.',
@@ -20,8 +20,20 @@ const translations = {
     'sercateHead4':'Sales of IT-Related Products',
     'sercateDesc4':'Offering a range of products to meet technology needs.',
     
+    'clientHeading':'Our Clients',
+    'clientDesc':'Several selected clients, who already believe in our service.',
+
+    'whoHeading':'Who we are?',
+    'whoDesc':'We are a versatile IT company specializing in network system construction, software development, and sales of IT-related products. With years of experience, we provide top-notch system introduction and operation support to our clients. Our team of experts is dedicated to delivering innovative solutions that meet our clients\' specific needs. Whether it\'s building a robust network system, developing custom software, or providing IT product sales, we are committed to delivering exceptional services that exceed our clients\' expectations.',
     
-    'footer-text': '© 2022 Our Company. All rights reserved.'
+    'contactHeading':'Contact Us',
+    'contactDesc':'Want to get in touch? We\'d love to hear from you. Here\'s how you can reach us.',
+
+    'footerAbout':'We provide innovative IT solutions for businesses with expertise in network system construction, software development, and IT product sales. Focused on quality and customer satisfaction.',
+
+    'footerCopyright': 'Copyright',
+    'footerAllRightReserved': 'All rights reserved.'
+    
   },
   fr: {
     'navHome': ' ホーム',
@@ -32,18 +44,31 @@ const translations = {
     'hero-title': 'ITサービス・ソフトウェア開発会社',
     'hero-desc': '私たちは、ネットワークシステム構築、ソフトウェア開発、IT製品販売の専門知識を持ち、ビジネス向けに革新的なITソリューションを提供しています。品質とお客様満足度に重点を置いています。',
     'hero-cta': 'LINEでお問い合わせください',
-    '':'',
-    '':'',
-    '':'',
-    '':'',
-    '':'',
-    '':'',
-    '':'',
-    '':'',
-    '':'',
-    '':'',
+    
+    'serHeading':'お客様のビジネスにお役に立てることがありますか？',
+    'serMainDesc':'堅牢なネットワークシステムの構築からカスタムソフトウェアの開発まで、当社は信頼できるITソリューションと専門的なサポートでビジネスの発展を支援します。',
+    'sercateHead1':'ネットワークシステムの構築',
+    'sercateDesc1':'ビジネス向けに安全で信頼性の高いコンピューターネットワークを構築します。',
+    'sercateHead2':'システム導入と運用サポート',
+    'sercateDesc2':'新規および既存のシステムに対する支援とメンテナンスを提供します。',
+    'sercateHead3':'ソフトウェア開発',
+    'sercateDesc3':'特定のビジネスニーズに合わせたカスタムソフトウェアソリューションの開発を行います。',
+    'sercateHead4':'IT関連製品の販売',
+    'sercateDesc4':'さまざまな製品を提供して、技術ニーズに応えます。',
 
-    'footer-text': '© 2022 Notre entreprise. Tous droits réservés.'
+    'clientHeading':'当社のお客様',
+    'clientDesc':'当社のサービスを信頼しているいくつかの選ばれたお客様です。',
+
+    'whoHeading':'私たちは誰ですか',
+    'whoDesc':'当社は、ネットワークシステムの構築、ソフトウェア開発、IT関連製品の販売に特化した多才なIT企業です。数年にわたる経験を生かし、当社はお客様に優れたシステム導入と運用サポートを提供しています。専門家チームは、お客様の特定のニーズに応える革新的なソリューションを提供することに専念しています。堅牢なネットワークシステムの構築、カスタムソフトウェアの開発、またはIT製品の販売であれ、当社は、お客様の期待を超える優れたサービスを提供することに取り組んでいます。',
+
+    'contactHeading':'お問い合わせ',
+    'contactDesc':'お問い合わせいただけますか？あなたからのご連絡をお待ちしております。以下の方法でお問い合わせください。',
+
+    'footerAbout':'当社は、ネットワークシステムの構築、ソフトウェア開発、IT製品販売において高い専門知識を持ち、革新的なITソリューションを提供しています。品質とお客様の満足度に注力し、ビジネス向けのITソリューションを提供しています。',
+
+    'footerCopyright': '著作権',
+    'footerAllRightReserved': '全著作権所有。',
   }
 };
 
