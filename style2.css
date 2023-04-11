@@ -216,6 +216,8 @@
   height: 110px;
 }
 
+
+
 .card-cust1 .card-body .ib1 {
   background-color: #F1F7FF;
 }
@@ -339,6 +341,7 @@
   max-width: 90%;
   height: auto;
   border-radius: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 @media only screen and (min-width: 768px) {
