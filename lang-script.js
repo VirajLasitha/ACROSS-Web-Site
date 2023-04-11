@@ -34,6 +34,26 @@ const translations = {
 
     'footerAbout':'We provide innovative IT solutions for businesses with expertise in network system construction, software development, and IT product sales. Focused on quality and customer satisfaction.',
 
+    'fcateheading1': 'Who we are',
+    'fcateheading2': 'Company',
+    'fcateheading3': 'Support',
+    'fcateheading4': 'Contact Us',
+
+    'fwedo1':'Network System Construction',
+    'fwedo2':'Operation Support',
+    'fwedo3':'Software Development',
+    'fwedo4':'IT-Related Products',
+
+    'fcomoant1':'About Us',
+    'fcomoant2':'Career',
+    'fcomoant3':'Become Investor',
+
+    'fsupport1':'FAQ',
+
+    'fcontact1':'WhatsApp',
+    'fcontact2':'Line',
+    'fcontact3':'Support 24/7',
+
     'footerCopyright': 'Copyright',
     'footerAllRightReserved': 'All rights reserved.'
     
@@ -72,6 +92,27 @@ const translations = {
     'contactDesc':'お問い合わせいただけますか？あなたからのご連絡をお待ちしております。以下の方法でお問い合わせください。',
 
     'footerAbout':'当社は、ネットワークシステムの構築、ソフトウェア開発、IT製品販売において高い専門知識を持ち、革新的なITソリューションを提供しています。品質とお客様の満足度に注力し、ビジネス向けのITソリューションを提供しています。',
+
+    'fcateheading1':'私たちの仕事',
+    'fcateheading2':' 会社',
+    'fcateheading3':'サポート',
+    'fcateheading4':'お問い合わせ',
+    
+
+    'fwedo1':'ネットワークシステムの構築',
+    'fwedo2':'運用サポート',
+    'fwedo3':'ソフトウェア開発',
+    'fwedo4':'IT関連製品',
+
+    'fcomoant1':'会社概要',
+    'fcomoant2':'キャリア',
+    'fcomoant3':'投資家になる',
+
+    'fsupport1':'よくある質問',
+
+    'fcontact1':'WhatsApp',
+    'fcontact2':'Line',
+    'fcontact3':'ホットライン',
 
     'footerCopyright': '著作権',
     'footerAllRightReserved': '全著作権所有。',
