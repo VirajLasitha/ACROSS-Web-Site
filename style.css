@@ -97,7 +97,8 @@ p {
 /* Home Section */
 
 #Home {
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    padding-top: 80px;
 }
 
 /* Circles */
