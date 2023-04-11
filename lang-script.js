@@ -1,5 +1,8 @@
 const translations = {
   en: {
+    'companyName':'ACROSS Co. Ltd',
+    'companyLastName':'Co. Ltd',
+
     'navHome': 'Home',
     'navSer': 'Services',
     'navClient':'Our Clients',
@@ -36,6 +39,9 @@ const translations = {
     
   },
   fr: {
+    'companyName':'ACROSS 株式会社',
+    'companyLastName':'株式会社',
+
     'navHome': ' ホーム',
     'navSer': 'サービス',
     'navClient': '当社のお客様',
