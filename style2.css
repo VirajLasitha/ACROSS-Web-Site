@@ -344,14 +344,14 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .bg-lg-square-team {
     position: absolute;
     padding: 0;
     margin: 0;
     height: 132px;
     width: 132px;
-    top: 1%;
+    top: 18%;
     left: 19%;
     transform: translate(0, -50%);
     border-radius: 101px 0px 0px 0px;
@@ -359,20 +359,22 @@
     background-color: #F4F9FF;
   }
 }
-
-.bg-lg-square-team {
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  height: 120px;
-  width: 120px;
-  top: 3%;
-  left: 7%;
-  transform: translate(0, -50%);
-  border-radius: 101px 0px 0px 0px;
-  z-index: -1;
-  background-color: #F4F9FF;
+@media only screen and (min-width: 768px) {
+  .bg-lg-square-team {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 120px;
+    width: 120px;
+    top: 30%;
+    left: 7%;
+    transform: translate(0, -50%);
+    border-radius: 101px 0px 0px 0px;
+    z-index: -1;
+    background-color: #F4F9FF;
+  }
 }
+
 
 @media only screen and (max-width: 768px) {
   .footer-dots {
