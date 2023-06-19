@@ -409,3 +409,13 @@
 .accrossLink:hover{
   color: #0a58ca;
 }
+
+/*Test for nav pill*/
+.navbar-nav .nav-link.active {
+ /* background-color: #ffffff; */
+  /*border-radius: 20px;
+  color: #fff;
+  padding-inline: 10px; */
+  color: #06C755;
+  transition: 0.2s ease-out;
+}
