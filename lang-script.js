@@ -55,7 +55,7 @@ const translations = {
     'fcontact3': 'Support 24/7',
 
     'footerCopyright': 'Copyright',
-    'footerAllRightReserved': 'All rights reserved.'
+    'footerAllRightReserved': 'Across Co., Ltd. All rights reserved.'
 
   },
   fr: {
@@ -115,7 +115,7 @@ const translations = {
     'fcontact3': 'ホットライン',
 
     'footerCopyright': '著作権',
-    'footerAllRightReserved': '全著作権所有。',
+    'footerAllRightReserved': 'Across Co., Ltd. 全著作権所有。',
   }
 };
 
