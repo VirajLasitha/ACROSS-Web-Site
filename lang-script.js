@@ -58,7 +58,7 @@ const translations = {
     'footerAllRightReserved': 'Across Co., Ltd. All rights reserved.'
 
   },
-  fr: {
+  jp: {
     'companyName': 'ACROSS 株式会社',
     'companyLastName': '株式会社',
 
@@ -133,7 +133,7 @@ function translatePage(language)
 }
 
 // Set the initial language to English
-let language = 'en';
+let language = 'jp';
 translatePage(language);
 
 // Add a click event listener to each language button
