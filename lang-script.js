@@ -53,6 +53,7 @@ const translations = {
     'fcontact1': 'WhatsApp',
     'fcontact2': 'Line',
     'fcontact3': 'Support 24/7',
+    'fcontactus': 'Contact Us',
 
     'footerCopyright': 'Copyright',
     'footerAllRightReserved': 'Across Co., Ltd. All rights reserved.'
@@ -113,6 +114,7 @@ const translations = {
     'fcontact1': 'WhatsApp',
     'fcontact2': 'Line',
     'fcontact3': 'ホットライン',
+    'fcontactus': 'お問い合わせ',
 
     'footerCopyright': '著作権',
     'footerAllRightReserved': 'Across Co., Ltd. 全著作権所有。',
