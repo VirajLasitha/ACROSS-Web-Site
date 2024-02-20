@@ -63,7 +63,7 @@ p {
     text-decoration: none;
     color: #FFFFFF;
     background-color: #06C755;
-    padding: 15px 55px 15px 30px;
+    padding: 15px 30px;
     border-radius: 30px;
     font-size: 1em;
     font-weight: 500;
@@ -355,8 +355,8 @@ p {
 
     /* Contact Us Button */
     .btn-contact-now {
-        left: 17% !important;
-        padding: 15px 70px 15px 40px !important;
+        /* left: 17% !important; */
+        padding: 15px 40px !important;
     }
 
     .btn-line {
@@ -443,7 +443,7 @@ p {
 
     /* Contact Us Button */
     .btn-contact-now {
-        left: 35%;
+        /* left: 35%; */
         bottom: 0;
     }
 
