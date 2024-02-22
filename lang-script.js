@@ -11,6 +11,8 @@ const translations = {
     'hero-title': 'A IT Services & Software Development Company',
     'hero-desc': 'We provide innovative IT solutions for businesses with expertise in network system construction, software development, and IT product sales. Focused on quality and customer satisfaction.',
     'hero-cta': 'Contact Us',
+    'sw-hero-title':'Software Development',
+    'sw-hero-desc':'Empower your digital evolution with our cutting-edge software solutions, crafted for unmatched agility. Our next-generation applications redefine efficiency, ensuring your business stays adaptable and responsive in today\'s fast-paced digital realm.',
 
     'serHeading': 'How can we help your business?',
     'serMainDesc': 'From building robust network systems to developing custom software, we help businesses thrive with reliable IT solutions and expert support.',
