@@ -12,18 +12,23 @@ const translations = {
     'hero-desc': 'We provide innovative IT solutions for businesses with expertise in network system construction, software development, and IT product sales. Focused on quality and customer satisfaction.',
     'hero-cta': 'Contact Us',
     'sw-hero-title':'Software Development',
-    'sw-hero-desc':'Empower your digital evolution with our cutting-edge software solutions, crafted for unmatched agility. Our next-generation applications redefine efficiency, ensuring your business stays adaptable and responsive in today\'s fast-paced digital realm.',
+    'sw-hero-desc':'Our team, featuring talent from Japan, China and Sri Lanka, offers tailor-made software solutions with a unique cultural perspective. Fluent in Japanese, Chinese, and English. We communicate effortlessly to bring your vision to life.',
 
     'serHeading': 'How can we help your business?',
     'serMainDesc': 'From building robust network systems to developing custom software, we help businesses thrive with reliable IT solutions and expert support.',
+    'sw-serHeading': 'Our Technology',
+    'sw-serMainDesc': 'We specialize in .Net, Java, PHP, WordPress, Angular, MySQL, and more. Feel free to reach out to us for further information.',
+    
+    
     'sercateHead1': 'Network System Construction',
-    'sercateDesc1': 'Building secure and reliable computer networks for businesses.',
     'sercateHead2': 'System Introduction and Operation Support',
     'sercateDesc2': 'Providing assistance and maintenance for new and existing systems.',
     'sercateHead3': 'Software Development',
     'sercateDesc3': 'Creating custom software solutions for specific business needs.',
     'sercateHead4': 'Sales of IT-Related Products',
     'sercateDesc4': 'Offering a range of products to meet technology needs.',
+    'swsercateHead1': 'Java Developer',
+    'swsercateHead2': '',
 
     'clientHeading': 'Our Clients',
     'clientDesc': 'Several selected clients, who already believe in our service.',
@@ -73,9 +78,14 @@ const translations = {
     'hero-title': 'ITサービス・ソフトウェア開発会社',
     'hero-desc': '当社はネットワークシステム構築、ソフトウェア開発、IT製品販売の専門知識を持つ、常に革新的なITソリューションを提供しています。品質とお客様満足度ナンバー1を目指しています。',
     'hero-cta': 'お問い合わせ',
+    'sw-hero-title': 'ソフトウェア開発',
+    'sw-hero-desc':'日本、中国、スリランカからの才能あるチームが、ユニークな文化的視点で特注ソフトウェアソリューションを提供しています。日本語、中国語、英語が流暢で、お客様のビジョンを具現化するためにスムーズにコミュニケーションを図ります。',
 
     'serHeading': 'お客様のビジネスにお役に立てることがありますか？',
     'serMainDesc': '堅牢なネットワークシステムの構築からカスタムソフトウェアの開発まで、当社は信頼できるITソリューションと専門的なサポートでビジネスの発展を支援します。',
+    'sw-serHeading': '私たちのテクノロジー',
+    'sw-serMainDesc': '.Net、Java、PHP、WordPress、Angular、MySQLなどに特化しています。詳細についてはお問い合わせください。',
+    
     'sercateHead1': 'ネットワークシステムの構築',
     'sercateDesc1': 'ビジネス向けに安全で信頼性の高いコンピューターネットワークを構築。',
     'sercateHead2': 'システム導入と運用サポート',

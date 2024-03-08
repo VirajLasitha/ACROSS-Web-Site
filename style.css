@@ -57,23 +57,21 @@ p {
 /* Contact Now Button */
 
 .btn-contact-now {
-    /* position: absolute;
-    bottom: 70px; */
-    position: relative;
-    bottom: -50px;
+
     float: left;
     text-decoration: none;
     color: #FFFFFF;
     background-color: #06C755;
-    padding: 15px 30px;
+    padding: 12px 50px;
     border-radius: 30px;
     font-size: 1em;
     font-weight: 500;
     transition: all ease 0.2s;
     border: #06C755 solid 2px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    /* transition: all .2s ease-in-out; */
+    margin-top: 10px;
 }
+
 
 .btn-contact-now:hover {
     color: #06C755;
@@ -97,7 +95,8 @@ p {
     border-bottom-left-radius: 100px;
 
     object-fit: cover;
-    height: 100%;
+    width: 100%;
+    background-size: cover;
 }
 
 /* Home Section */
@@ -485,4 +484,14 @@ p {
         transform: translateY(-10px);
     }
 
+}
+
+/* link card */
+.ancher-card{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ancher-card:hover{
+    cursor: pointer!important;
 }
