@@ -4,7 +4,8 @@ const translations = {
     'companyLastName': 'Co. Ltd',
 
     'addressLine1': '〒103-0023',
-    'addressLine2': '3F Plaza Building, 2-6-1 Nihonbashi Honmachi, Chuo-ku, Tokyo',
+    'addressLine2': '3F Plaza Building, 2-6-1 Nihonbashi Honmachi, ',
+    'addressLine3': 'Chuo-ku, Tokyo',
 
     'navHome': 'Home',
     'navSer': 'Services',
@@ -108,7 +109,8 @@ const translations = {
     'companyLastName': '株式会社',
 
     'addressLine1': '〒103-0023',
-    'addressLine2': '東京都中央区日本橋本町2-6-1プラザビル3F',
+    'addressLine2': '東京都中央区日本橋本町2-6-1',
+    'addressLine3': 'プラザビル3F',
 
     'navHome': ' ホーム',
     'navSer': 'サービス',
